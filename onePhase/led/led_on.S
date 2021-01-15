@@ -3,6 +3,7 @@
 */
 .text
 .global _start
+_start:
     ldr r1, =0x56000050
     ldr r0, =0x55555 /*mov r0, #0x100*/
     str r0,[r1]
